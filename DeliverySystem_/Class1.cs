@@ -20,5 +20,10 @@
                 Status = OrderStatus.Pending;
             }
         }
+
+        public void ChangeStatus(OrderStatus newStatus)
+        {
+            Status = newStatus;
+        }
     }
 }
