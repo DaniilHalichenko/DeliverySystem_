@@ -38,5 +38,11 @@ namespace DeliverySystem_
             if (Price < 0)
                 Price = 0;
         }
+
+        public bool IsDelivered()
+        {
+            return Status == OrderStatus.Delivered;
+        }
+        
     }
 }
