@@ -39,5 +39,22 @@ namespace DeliverySystem_.Test
 
             Assert.Equal(0, order.Price);
         }
+
+        [Fact]
+        public void IsDelivered_StatusDelivered_ReturnsTrue()
+        {
+            var order = new Order(100);
+            order.ChangeStatus(OrderStatus.Delivered);
+
+            Assert.True(order.IsDelivered());
+        }
+
+        [Fact]
+        public void IsDelivered_StatusNotDelivered_ReturnsFalse()
+        {
+            var order = new Order(100);
+
+            Assert.False(order.IsDelivered());
+        }
     }
 }
