@@ -1,4 +1,6 @@
-﻿namespace DeliverySystem_
+﻿using System.Diagnostics;
+
+namespace DeliverySystem_
 {
     public class Class1
     {
@@ -24,6 +26,17 @@
         public void ChangeStatus(OrderStatus newStatus)
         {
             Status = newStatus;
+        }
+
+        public void ApplyDiscount(decimal percent)
+        {
+            if (percent < 0) return;
+
+            var discountAmount = Price * (percent / 100m);
+            Price -= discountAmount;
+
+            if (Price < 0)
+                Price = 0;
         }
     }
 }
