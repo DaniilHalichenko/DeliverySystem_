@@ -2,25 +2,23 @@
 
 namespace DeliverySystem_
 {
-    public class Class1
+
+    public enum OrderStatus
     {
-        public enum OrderStatus
-        {
-            Pending,
-            Shipped,
-            Delivered
-        }
+        Pending,
+        Shipped,
+        Delivered
+    }
 
-        public class Order
-        {
-            public decimal Price { get; private set; }
-            public OrderStatus Status { get; private set; }
+    public class Order
+    {
+        public decimal Price { get; private set; }
+        public OrderStatus Status { get; private set; }
 
-            public Order(decimal price)
-            {
-                Price = price;
-                Status = OrderStatus.Pending;
-            }
+        public Order(decimal price)
+        {
+            Price = price;
+            Status = OrderStatus.Pending;
         }
 
         public void ChangeStatus(OrderStatus newStatus)
@@ -43,6 +41,7 @@ namespace DeliverySystem_
         {
             return Status == OrderStatus.Delivered;
         }
-        
     }
 }
+
+

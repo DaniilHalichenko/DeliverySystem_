@@ -1,3 +1,5 @@
+using Xunit;
+
 namespace DeliverySystem_.Test
 {
     public class UnitTest1
@@ -55,6 +57,16 @@ namespace DeliverySystem_.Test
             var order = new Order(100);
 
             Assert.False(order.IsDelivered());
+        }
+
+        [Fact]
+        public void ApplyDiscount_WithNegativePercent_ReturnFullPrice()
+        {
+            var order = new Order(100);
+
+            order.ApplyDiscount(-20);
+
+            Assert.Equal(100, order.Price);
         }
     }
 }
