@@ -3,12 +3,7 @@
 namespace DeliverySystem_
 {
 
-    public enum OrderStatus
-    {
-        Pending,
-        Shipped,
-        Delivered
-    }
+    
 
     public class Order
     {

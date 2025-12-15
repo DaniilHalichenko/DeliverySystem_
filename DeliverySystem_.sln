@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverySystem_", "DeliverySystem_\DeliverySystem_.csproj", "{42827C16-8E0E-4284-850C-1E9E62170175}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverySystem_.Test", "DeliverySystem_.Test\DeliverySystem_.Test.csproj", "{CD656DAD-DB3B-463E-BC9D-FF66CC0AEC63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryService", "DeliveryService\DeliveryService.csproj", "{10FD63E8-1DB3-403E-84E9-BEF5D7F496D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CD656DAD-DB3B-463E-BC9D-FF66CC0AEC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD656DAD-DB3B-463E-BC9D-FF66CC0AEC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD656DAD-DB3B-463E-BC9D-FF66CC0AEC63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10FD63E8-1DB3-403E-84E9-BEF5D7F496D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10FD63E8-1DB3-403E-84E9-BEF5D7F496D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10FD63E8-1DB3-403E-84E9-BEF5D7F496D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10FD63E8-1DB3-403E-84E9-BEF5D7F496D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

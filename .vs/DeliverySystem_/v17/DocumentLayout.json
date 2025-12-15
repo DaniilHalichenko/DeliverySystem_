@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42827C16-8E0E-4284-850C-1E9E62170175}|DeliverySystem_\\DeliverySystem_.csproj|c:\\users\\danya\\source\\repos\\deliverysystem_\\deliverysystem_\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42827C16-8E0E-4284-850C-1E9E62170175}|DeliverySystem_\\DeliverySystem_.csproj|solutionrelative:deliverysystem_\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10FD63E8-1DB3-403E-84E9-BEF5D7F496D3}|DeliveryService\\DeliveryService.csproj|c:\\users\\danya\\source\\repos\\deliverysystem_\\deliveryservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{10FD63E8-1DB3-403E-84E9-BEF5D7F496D3}|DeliveryService\\DeliveryService.csproj|solutionrelative:deliveryservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10FD63E8-1DB3-403E-84E9-BEF5D7F496D3}|DeliveryService\\DeliveryService.csproj|c:\\users\\danya\\source\\repos\\deliverysystem_\\deliveryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FD63E8-1DB3-403E-84E9-BEF5D7F496D3}|DeliveryService\\DeliveryService.csproj|solutionrelative:deliveryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42827C16-8E0E-4284-850C-1E9E62170175}|DeliverySystem_\\DeliverySystem_.csproj|c:\\users\\danya\\source\\repos\\deliverysystem_\\deliverysystem_\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42827C16-8E0E-4284-850C-1E9E62170175}|DeliverySystem_\\DeliverySystem_.csproj|solutionrelative:deliverysystem_\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42827C16-8E0E-4284-850C-1E9E62170175}|DeliverySystem_\\DeliverySystem_.csproj|c:\\users\\danya\\source\\repos\\deliverysystem_\\deliverysystem_\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42827C16-8E0E-4284-850C-1E9E62170175}|DeliverySystem_\\DeliverySystem_.csproj|solutionrelative:deliverysystem_\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD656DAD-DB3B-463E-BC9D-FF66CC0AEC63}|DeliverySystem_.Test\\DeliverySystem_.Test.csproj|c:\\users\\danya\\source\\repos\\deliverysystem_\\deliverysystem_.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,33 +30,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliveryService\\Dockerfile",
+              "RelativeDocumentMoniker": "DeliveryService\\Dockerfile",
+              "ToolTip": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliveryService\\Dockerfile",
+              "RelativeToolTip": "DeliveryService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-15T15:59:57.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliverySystem_\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "DeliverySystem_\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliverySystem_\\OrderStatus.cs",
+              "RelativeToolTip": "DeliverySystem_\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T15:51:21.808Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliveryService\\Program.cs",
+              "RelativeDocumentMoniker": "DeliveryService\\Program.cs",
+              "ToolTip": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliveryService\\Program.cs",
+              "RelativeToolTip": "DeliveryService\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAmpmZmZkdwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T15:45:14.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliverySystem_.Test\\UnitTest1.cs",
               "RelativeDocumentMoniker": "DeliverySystem_.Test\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliverySystem_.Test\\UnitTest1.cs",
               "RelativeToolTip": "DeliverySystem_.Test\\UnitTest1.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAA5wEUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwEcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:24:45.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T14:24:45.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliverySystem_\\Class1.cs",
-              "RelativeDocumentMoniker": "DeliverySystem_\\Class1.cs",
-              "ToolTip": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliverySystem_\\Class1.cs",
-              "RelativeToolTip": "DeliverySystem_\\Class1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliverySystem_\\Order.cs",
+              "RelativeDocumentMoniker": "DeliverySystem_\\Order.cs",
+              "ToolTip": "C:\\Users\\danya\\source\\repos\\DeliverySystem_\\DeliverySystem_\\Order.cs",
+              "RelativeToolTip": "DeliverySystem_\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T14:24:41.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T14:24:41.663Z"
             }
           ]
         }
